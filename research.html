@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8"/>
+        <title>[ Tao Chen @ LU ]</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        
+        <!-- Font Awesome Icons -->
+        <link rel="stylesheet" href="css/font-awesome.min.css"/>
+        
+        <!-- Bootstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet"/>
+        <!--<link href="css/bootstrap.min.css" rel="stylesheet">-->
+        
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+         <script src="js/html5shiv.js"></script>
+         <script src="js/respond.min.js"></script>
+         <![endif]-->
+        
+        
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <!-- http://getbootstrap.com/customize/ change "@screen-sm" -> "@screen-md" in @grid-float-breakpoint -->
+        <script src="js/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/menucollapse.js"></script>
+        <script type="text/javascript" src="js/arrow78.js"></script>
+        <script type="text/javascript" src="js/custom.js"></script>
+    </head>
+    
+    <body id="page-top" class="index">
+        
+        <!-- Navigation -->
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"  data-target="#bs-example-navbar-collapse-2" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="glyphicon glyphicon-search"></span>
+                    </button>
+                    <button id="button2" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <span>
+                      <ul class="nav navbar-nav navbar-right" style="width: 220px;">
+                       <li style="font-size: 20px;" >
+                            <a>Tao Chen @ LBORO</a>
+                        </li>
+                    </ul>
+                    
+                    </span>
+                </div>
+                
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="page-scroll">
+                            <a href="index.html">
+                                Home</a>
+                            <!--<ul class="dropdown-menu">
+                                <li><a onclick="javascript:reset_menus();$('#tab-intro-content').show();" href="#intro">Introduction</a></li>
+                                <li><a href="bio.html">Biography</a></li>
+                                <li><a href="cv.html">CV (Web)</a></li>
+                                <li><a target="_blank" href="zeinalipour.pdf">CV (PDF)</a></li>
+                            </ul>-->
+                        </li>
+                        <li class="page-scroll">
+                            <a href="research.html">Research</a>
+                        </li>
+                        <!--<li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                Publications<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a onclick="javascript:reset_menus();$('#tab-publications-content').show();" href="#publications">Selected</a></li>
+                                <li><a href="publications/">All</a></li>
+                            </ul>
+                        </li>-->
+                        
+                        <li class="page-scroll">
+                            <a href="publications/publications.html">Publications</a>
+                        </li>
+                        <li class="page-scroll">
+                            <a href="projects.html">Projects</a>
+                        </li>
+                        <li class="page-scroll">
+                            <a href="teaching.html">Teaching</a>
+                        </li>
+                        <li class="page-scroll">
+                            <a href="peer.html">Peer Esteem</a>
+                        </li>
+                        
+                        <li class="page-scroll">
+                            <a href="contacts.html">Contact</a>
+                        </li>
+                        <li class="page-scroll">
+                            <a onclick="javascript:reset_menus();$('#bs-example-navbar-collapse-2').toggle();">
+                                <span class="glyphicon glyphicon-search"></span>
+                            </a>
+                        </li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+                
+                <!-- search box submenu -->
+                <div class="collapse" id="bs-example-navbar-collapse-2">
+                    <gcse:search></gcse:search>
+                        </div>
+                
+            </div><!-- /.container-fluid -->
+        </nav>
+   <!-- <section>
+            Place this tag where you want the search results to render
+            <gcse:searchresults-only></gcse:searchresults-only>
+                </section> -->
+        
+        
+     <section  name="home" id="home" style="margin-top:70px">
+     <div class="container lead">
+      <h2>Research</h2>
+      
+       
+      
+            <div class="container">
+               
+                    <div class="allshow" style="display:none; font-size: 16px" id="tab-publications-content">
+                        I have broad research interests on Software Engineering, including but not limited to:
+                        
+                        <p>
+                        <ul>
+                        <li>Performance Engineering</li>
+                        <li>Search-Based Software Engineering</li>
+                        <li>Self-* Software Systems</li>
+                        <li>Computational Intelligence</li>
+                        <li>Services Computing</li>
+                        <li>Cloud Computing</li>
+                        
+                        </ul>
+                        </p>
+                       
+				<p>My research has been on the intersection between <b>Computational Intelligence</b> (e.g., Natural Computation and certain aspects of Machine Learning etc) and <b>Software Engineering</b>, particularly on the fields such as Self-Adaptive Software Systems, Search-Based Software Engineering (SBSE) and Intelligent Performance Engineering. My work is related to exploiting and tailoring Computational Intelligence for understanding, improving and assessing the software engineering process as well as the runtime behaviors of the developed software systems, ranging from the domain of web applications to the cloud computing paradigm. The ultimate goal of my work is to create approaches that enable intuitive and effective creation of more dependable, reliable and adaptable software systems.</p>
+				
+				<!-- with special focus on engineering Self-Adaptive Software Systems, which refer to the special software systems that, when operate under dynamic and uncertainty, are able to adapt its configurations, structure and behaviours according to its perceptions about its own status and the environment at design time and runtime.-->
+				
+				<p>Specifically, the themes of my research include, but not limited to, the following aspects (especially at runtime) where most of the challenges are related to dealing with the dynamic and uncertainty experienced by the software systems:</p>
+				
+				
+				 
+				
+				
+                        
+                    </div> 
+                      </div>
+                              
+                <div class="container">
+                <h3>Software and System Modelling</h3>
+                <div align="center"  style="margin-top:20px">
+                    <a >
+                        <img id="mobile-img" src="images/model1.png" width="500" style="padding:2px;border-radius: 5px;border:1px solid #021a40;" height="200" alt=""></a>
+                        
+                         <a align="center"  style="margin-left:50px"></a>
+                          <a >
+                        <img id="mobile-img" src="images/model2.png" width="500" style="padding:2px;border-radius: 5px;border:1px solid #021a40;" height="100" alt=""></a>
+                </div>
+               
+                    <div class="allshow" style="display:none; font-size: 16px;margin-top:20px" id="tab-intro-content">
+                        
+                        
+				<p>Modeling the behaviours of software systems is important for any forms of reasoning conducted on the effects of adaptation solution to non-functional quality, such as response time, throughput and energy consumption. The challenge is concerned with how to efficiently build accurate model that captures the correlation between a wide range of adaptable features and the non-functional quality. The produced model often serve as inexpensive tool to evaluate a possible adaptation solution, which in turn, can greatly speed up the decision making process, either at design time or at runtime. As examples, to date, my research has produced the following outcomes:
+				
+				</p>
+                      
+                        <li>Hybrid feature selection and adaptive machine learning modeling using information theory <b><a target="_blank" href="publications/papers/TSE2608826.pdf">[TSE17]</a> <a target="_blank" href="publications/papers/seams13-id19-p-16138-preprint.pdf">[SEAMS13]</a> <a target="_blank" href="publications/papers/ucc-2014-camera-ready.pdf">[UCC14]</a></b></li>
+                       <li>A framework that exploits debt aware and machine learning driven modeling <b><a target="_blank" href="publications/papers/icpe024s.pdf">[ICPE18]</a></b></li>
+                       <li>The first empirical comparison between incremental and retrained machine learning algorithms for modeling adaptable software. <b><a target="_blank" href="publications/papers/one-versus-all.pdf">[SEAMS19]</a></b></li>
+                        
+                    </div> 
+                    
+                   
+                    
+                     
+                      </div>     
+                               
+                                                  
+               <div class="container">
+                <h3>Architecture for Complex Software Systems</h3>
+                <div align="center"  style="margin-top:20px">
+                    <a >
+                        <img id="mobile-img" src="images/arch.png" width="300" style="padding:2px;border-radius: 5px;border:1px solid #021a40;" height="200" alt=""></a>
+                        
+                </div>
+               
+                    <div class="allshow" style="display:none; font-size: 16px;margin-top:20px" id="tab-intro-content">
+                        
+                        
+				<p>Software architecture serves as the blueprint for engineering software systems, and it is of particular important for adaptable software, which contains various different decisions to make during the engineering process. Yet, the difficulty lies in the fact that engineering complex and adaptable software systems often lack of general guidance at the architecture level, due to the high degree of dynamics and uncertainty involved. Such a guidance will not only reduce the cost in the engineering process, but also improve the quality of the developed software system. To date, my work has leaded to the following selected results:
+				
+				</p>
+                      
+                        <li>A set of architectural patterns and guidlines for engineering self-aware software systems <b><a target="_blank" href="#">[IEEE Com15a]</a> <a target="_blank" href="publications/papers/07274426.pdf">[IEEE Com15b]</a> <a target="_blank" href="http://arxiv.org/abs/1409.1793">[Arxiv14]</a></b></li>
+                       <li>Symbiotic architecture style with dynamic architectural granularity of software systems <b><a target="_blank" href="publications/papers/p85-chen.pdf">[SEAMS14]</a></b></li>
+                         <li>A survey and taxonomy of the architecture styles for self-aware and self-adaptive cloud autoscaling systems, including the underlying algorithms <b><a target="_blank" href="publications/papers/autoscaling-survey.pdf">[CSUR18]</a></b></li>
+                        
+                    </div> 
+                    
+                   
+                    
+                     
+                      </div>                                                           
+                                                                                                           
+                      <div class="container">
+                <h3>Decision Making and Planning in Software Systems</h3>
+                <div align="center"  style="margin-top:20px">
+                    <a >
+                        <img id="mobile-img" src="images/dm1.png" width="500" style="padding:2px;border-radius: 5px;border:1px solid #021a40;" height="200" alt=""></a>
+                        
+                         <a align="center"  style="margin-left:50px"></a>
+                          <a >
+                        <img id="mobile-img" src="images/dm2.png" width="200" style="padding:2px;border-radius: 5px;border:1px solid #021a40;" height="200" alt=""></a>
+                </div>
+               
+                    <div class="allshow" style="display:none; font-size: 16px;margin-top:20px" id="tab-intro-content">
+                        
+                        
+				        
+				<p>Engineering software systems would inevitably involve decision making and planning, not only for implementing the correct functions, but also for optimizing the performance quality. However, the challenge is also related to the increasing complexity of software systems, e.g., high number of features, dependencies and the non-functional quality to be tuned, as well as the different forms of domain knowledge that the software engineers own. Further, there is often a great extent of conflicting between the optimizing objectives, e.g., latency versus energy consumptions. The problem becomes even more difficult at runtime due to the uncertainty about when changes occurs and the extent of changes. Such automatic and dynamic process enable effective and efficient management of the software system's behaviours. To date, my research has built a series of outcomes on this topic, some of which the most notable ones are listed as below:
+				
+				</p>
+                      
+                        <li>A framework for feature and knee point guided multi-objective evolutionary algorithm to optimize software performance <b><a target="_blank" href="publications/papers/FEMOSAA.pdf">[TOSEM18]</a></b></li>
+                           <li>Seeding evolutionary algorithm for multi objectively optimizing software services <b><a target="_blank" href="publications/papers/seeding-ist.pdf">[IST19]</a></b></li>
+                       <li>Dynamic and tailored ant colony optimization for cloud software services with balanced trade-off results across different tenants <b><a target="_blank" href="publications/papers/TSC-chen-2499770.pdf">[TSC17]</a></b></li>
+                        
+                    </div> 
+                    
+                   
+                    
+                     
+                      </div>
+                      
+                      
+                              <div class="container">
+                <h3>Quality Indicator Selection for SBSE</h3>
+                <div align="center"  style="margin-top:20px">
+                    <a >
+                        <img id="mobile-img" src="images/qis1.png" width="200" style="padding:2px;border-radius: 5px;border:1px solid #021a40;" height="200" alt=""></a>
+                        
+                         <a align="center"  style="margin-left:50px"></a>
+                          <a >
+                        <img id="mobile-img" src="images/qis2.png" width="450" style="padding:2px;border-radius: 5px;border:1px solid #021a40;" height="200" alt=""></a>
+                </div>
+               
+                    <div class="allshow" style="display:none; font-size: 16px;margin-top:20px" id="tab-intro-content">
+                        
+                        
+			<p>SBSE relies on the advanced metaheuristic optimization algorithms, e.g., the evolutionary algorithms, to optimize various complex tasks in software engineering. However, when it comes to multiple conflicting objectives, there is a lack of general guidance to assist researcher when it comes to assessing the quality of a set of trade-off solution, considering the nature of the problem and engineers' knowledge. In light of this, a clear guidance is on high demand to repoint this area of research to the appropriate direction. This is an ongoing but of high importance research topic, in which I have been making some initial contributions as below:
+				
+				</p>
+                      
+                        <li>A criticism and corrected guidance on quality indicator selection for SBSE problems <b><a target="_blank" href="publications/papers/PID5209361.pdf">[ICSE-NIER18]</a></b></li>
+                        
+                    </div> 
+                    
+                   
+                    
+                     
+                      </div>
+                             
+                                               
+                <!--<p><a href="#" class="btn btn-primary">More &raquo;</a></p>-->
+                <b class="expandshow" style="display:none;" id="tab-1">
+                    <button class="btn btn-primary btn-lg btn-block" style="width: 100%;" onclick="javascript:$('.allshow').show();$('.noshow').hide();$('.collapseshow').show();$('.expandshow').hide();">EXPAND ALL SECTIONS <span class="glyphicon glyphicon-chevron-down"></span></button>
+                </b>
+                <b class="collapseshow" style="display:none;" id="tab-1">
+                    <button class="btn btn-primary btn-lg btn-block" style="display: block; width: 100%;" onclick="javascript:$('.allshow').hide();$('.noshow').show();$('.expandshow').show();$('.collapseshow').hide();">COLLAPSE ALL SECTIONS <span class="glyphicon glyphicon-chevron-up"></span></button>
+                </b>
+                
+            </div>
+           
+        </section>
+
+                
+        <hr class="star-primary">
+        <footer>
+            <small>
+                <center>
+                    © 2019 | Tao Chen
+                </center>
+            </small>
+        </footer>
+        
+    </body>
+    
+</html>
